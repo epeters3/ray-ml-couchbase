@@ -1,0 +1,1 @@
+cat ./mldb/scripts/prep_worker.sh | parallel-ssh --askpass --print --send-input --timeout 0 --hosts sshhosts
